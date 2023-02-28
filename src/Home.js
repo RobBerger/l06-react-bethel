@@ -10,6 +10,7 @@ function Home() {
       <Navbar bg="dark" variant="dark">
         <Container>
           <Nav className="me-auto">
+            <Link to="/" className="nav-link">Home</Link>
             <Link to="/about-us" className="nav-link">About Us</Link>
           </Nav>
         </Container>
