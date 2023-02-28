@@ -14,8 +14,6 @@ function Home() {
           </Nav>
         </Container>
       </Navbar>
-      <h1>Welcome</h1>
-      <p>Hello there! Thanks for visiting our website!</p>
       <Stack gap={3} className="col-md-10 mx-auto">
         <Outlet />
       </Stack>
